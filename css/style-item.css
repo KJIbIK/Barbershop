@@ -1,0 +1,298 @@
+body {
+  background: #f8f5f2 url("../img/bg-content-block.png") repeat;
+  min-width: 960px;
+  min-height: 1162px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.main-header{
+  margin-bottom: 54px;
+  color: #ffffff;
+  background-color: #000000;
+}
+.main-navigation {
+  width: 780px;
+  float: left;
+  min-height: 70px;
+}
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-navigation a {
+  display: block;
+  padding: 25px 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.main-navigation a:hover {
+  background-color: #242424;
+}
+.main-navigation li:first-child a {
+  padding: 21px 20px;
+}
+
+.user-block {
+  max-width: 140px;
+  float: right;
+  min-height: 70px;
+}
+.login {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px 20px;
+  padding-left: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+}
+.login:hover {
+    background-color: #242424;
+}
+.login::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  width: 18px;
+  height: 18px;
+  background: url("../img/icon-login.png") no-repeat;
+  opacity: 0.3;
+}
+.login:hover::before {
+  opacity: 1;
+}
+
+
+.additional-navigation h2 {
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 21px
+}
+.additional-navigation ul {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 45px;
+  padding: 0;
+}
+.additional-navigation li {
+  position: relative;
+  display: inline;
+  padding-right: 24px;
+  margin-right: 16px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.additional-navigation a {
+  text-decoration: none;
+  color: black;
+}
+.additional-navigation li:last-child a {
+  color: #aba9a7;
+}
+.additional-navigation li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 30%;
+  margin-left: -4px;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  transform: rotate(45deg);
+}
+
+.images {
+  margin-left: -10px;
+  margin-right: 80px;
+  float: left;
+}
+.big-image {
+  margin-bottom: -10px;
+  width: 486px;
+  height: 524px;
+}
+.small-images img {
+  margin-right: -10px;
+  width: 166px;
+  height: 175px;
+}
+
+.information {
+  float: left;
+  padding-top: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  width: 380px;
+}
+.about {
+  position: relative;
+}
+.about span {
+  display: inline-block;
+}
+.about span:nth-child(2) {
+  position: absolute;
+  right: 0px;
+  color: #aba9a7;
+}
+.about p {
+  margin-top: 33px;
+  margin-bottom: 38px;
+}
+.price-btn {
+  margin-bottom: 63px;
+  font-size: 0;
+}
+.btn {
+  display: inline-block;
+}
+.btn-span {
+  background-color: #e5e5e5;
+  padding: 12px 25px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.btn-a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 12px 20px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.price-btn a:hover, .price-btn a:active {
+  background-color: #663d15;
+}
+
+.composition b {
+  font-size: 24px;
+  line-height: 34px;
+}
+.composition ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 31px;
+  list-style: none;
+}
+.composition li {
+  position: relative;
+  padding-left: 20px;
+}
+.composition li::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 30%;
+  margin-left: 4px;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  transform: rotate(45deg);
+}
+
+footer {
+  background: url("../img/bg-footer.png");
+  color: white;
+}
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 14px;
+  line-height: 24px;
+  box-shadow: inset 0px 20px 30px 0px #000000;
+}
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+.footer-social {
+  float: left;
+  width: 180px;
+  text-align: center;
+}
+.footer-copyright {
+  float: right;
+  max-width: 180px;
+  text-align: center;
+}
+.footer-contacts a {
+  color: white;
+}
+.footer-contacts a:hover {
+  text-decoration: none;
+}
+.footer-social p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.social-btn {
+  display: inline-block;
+  vertical-align: top;
+  width: 43px;
+  height: 43px;
+  margin: 0 2px;
+  font-size: 0;
+  text-decoration: 0;
+  /* Если бы был спрайт, то
+  transition: background-color 0.5s, background-position: 0.5s; */
+}
+.social-btn-vk {
+    background: #000000 url("../img/vk.png") no-repeat center;
+}
+.social-btn-fb {
+    background: #000000 url("../img/fb.png") no-repeat center;
+}
+.social-btn-inst {
+    background: #000000 url("../img/ins.png") no-repeat center;
+}
+.social-btn-vk:hover {
+    background: #ffffff url("../img/vk-act.png") no-repeat center;
+}
+.social-btn-fb:hover {
+    background: #ffffff url("../img/fb-act.png") no-repeat center;
+}
+.social-btn-inst:hover {
+    background: #ffffff url("../img/ins-act.png") no-repeat center;
+}
+.footer-copyright p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.footer-copyright .btn {
+  margin-right: 0;
+}
+.footer-copyright .btn:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
